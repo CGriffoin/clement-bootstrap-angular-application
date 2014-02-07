@@ -1,0 +1,64 @@
+{
+    "data" : [
+        {
+            "id": "0",
+            "firstName": "Clément",
+            "lastName": "GRIFFOIN"
+        },
+        {
+            "id": "1",
+            "firstName": "fName2",
+            "lastName": "lName2"
+        },
+        {
+            "id": "2",
+            "firstName": "fName3",
+            "lastName": "lName3"
+        },
+        {
+            "id": "3",
+            "firstName": "fName4",
+            "lastName": "lName4"
+        },
+        {
+            "id": "4",
+            "firstName": "fName5",
+            "lastName": "lName5"
+        },
+        {
+            "id": "5",
+            "firstName": "fName6",
+            "lastName": "lName6"
+        }
+    ],
+    "contacts" : [
+        {
+            "name" : "Clément GRIFFOIN",
+            "titre" : "Ingénieur d'études et de développement",
+            "email" : "griffoin.c@sfeir.com"
+        },
+        {
+            "name" : "Test n°1",
+            "titre" : "Titre n°1",
+            "email" : "name.firstName1@sfeir.com"
+        },
+        {
+            "name" : "Test n°2",
+            "titre" : "Titre n°2",
+            "email" : "name.firstName2@sfeir.com"
+        },
+        {
+            "name" : "Test n°3",
+            "titre" : "Titre n°3",
+            "email" : "name.firstName3@sfeir.com"
+        }
+
+    ],
+    "about" : [
+        {
+            "blabla" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, eaque fugiat modi earum eveniet dolor cumque adipisci est minima provident. Veniam, labore, reiciendis, quos, nulla vitae culpa voluptate deserunt facere repudiandae aliquid eveniet incidunt qui sequi molestiae repellendus magnam voluptatem perspiciatis consequuntur dignissimos fugiat deleniti hic ab distinctio similique iure?",
+            "image" : "http://blog.moovijob.com/wp-content/uploads/2012/11/sfeir01.jpg",
+            "presentation" : "Grâce à nos développeurs à l’expertise reconnue, SFEIR met en oeuvre des applications critiques en respectant les contraintes de délais et de coûts. La majorité de nos projets intègrent des techniques digitales innovantes que peu d’ingénieurs maîtrisent, ceci permet à nos clients de prendre des avantages significatifs sur leur marché. Précurseurs sur les nouvelles technologies, nous avons par exemple accompagné nos clients pour la mise en oeuvre du BigData et du Cloud dès 2009."
+        }
+    ]
+}

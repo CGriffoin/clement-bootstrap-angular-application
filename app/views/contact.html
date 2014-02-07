@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <header class="page-header">
+                <h1>Nous contacter</h1>
+            </header>
+            <ul>
+                <li ng-repeat="contact in contacts">
+                    <p>{{contact.name}}</p>
+                    <p>
+                        Fonction : <b>{{contact.titre}}</b>
+                    </p>
+                    <a href="mailto:{{contact.email}}">{{contact.email}}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <header class="page-header">
+                <h1>Nous trouver</h1>
+            </header>
+            <!--https://goo.gl/maps/uIbmb-->
+            <div id="map_canvas" style="text-align: center;">
+                <p style="margin-top:180px;"><b><i>Veuillez patienter pendant le chargement de la carte...</i></b></p>
+            </div>
+        </div>
+    </div>
+</div>

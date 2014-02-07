@@ -1,0 +1,62 @@
+
+<div class="jumbotron">
+    <h1>'Allo, 'Allo!</h1>
+
+    <p class="lead">
+        <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+        Always a pleasure scaffolding your apps.
+    </p>
+
+    <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!</a></p>
+</div>
+
+<div class="row marketing">
+    <h4>HTML5 Boilerplate</h4>
+
+    <p>
+        HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or
+        sites.
+    </p>
+
+    <h4>Angular</h4>
+
+    <p>
+        AngularJS is a toolset for building the framework most suited to your application development.
+    </p>
+
+    <h4>Karma</h4>
+
+    <p>Spectacular Test Runner for JavaScript.</p>
+</div>
+
+<div class="footer">
+    <p>♥ from the Yeoman team</p>
+</div>
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>
+            <label class="control-label">ID</label>
+        </th>
+        <th>
+            <label class="control-label">Prénom</label>
+        </th>
+        <th>
+            <label class="control-label">Nom</label>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="name in names">
+        <td>
+            <label class="control-label">{{name.id}}</label>
+        </td>
+        <td>
+            <label class="control-label">{{name.firstName}}</label>
+        </td>
+        <td>
+            <label class="control-label">{{name.lastName}}</label>
+        </td>
+    </tr>
+    </tbody>
+</table>
